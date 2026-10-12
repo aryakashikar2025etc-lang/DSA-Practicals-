@@ -13,7 +13,7 @@ void push(int val)
         newnode->data=val;
         newnode->next=head;
         head=newnode;
-}
+} 
 
 void pop()
     {
